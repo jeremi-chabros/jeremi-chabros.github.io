@@ -13,6 +13,7 @@
     --color-gold: #D5B795;
     --color-blue: #A7CEEF;
     --color-green: #ACB5AC;
+    --color-teal: #233D4B;
     --color-lavender: #B8BBD3;
     --color-red: #C9A3A4;
     --color-white: white;
@@ -122,7 +123,7 @@ screen and (min-resolution:2dppx) {
     /* background-color: var(--color-bg-light); */
     /* background-color: var(--color-lavender); */
     /* background-color: var(--color-base); */
-    background-color: var(--color-black);
+    background-color: var(--color-teal);
     color: var(--color-type-base)
 }
 
