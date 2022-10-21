@@ -11,11 +11,15 @@
     --transition-extra-long: 800ms;
     --color-base: #0B2436;
     --color-gold: #D5B795;
-    --color-blue: #A7CEEF;
-    --color-green: #ACB5AC;
+    /* --color-blue: #A7CEEF; */
+    --color-blue: #787592;
+    /* --color-green: #ACB5AC; */
+    --color-green: #B495B2;
     --color-teal: #001717;
+    --color-purple: #4A3450;
     --color-lavender: #B8BBD3;
-    --color-red: #C9A3A4;
+    /* --color-red: #C9A3A4; */
+    --color-red: #4A3450;
     --color-white: white;
     --color-light-gray: #BBBFBF;
     --color-lighter-gray: #F2F7F7;
@@ -312,6 +316,9 @@ screen and (min-resolution:2dppx) {
     p._reduced-width-p {
         max-width: 40%
     }
+}
+._component-color-gold {
+    --component-color: var(--color-purple)
 }
 
 ._component-color-gold {
@@ -2722,7 +2729,7 @@ div.aboutColumns-image img {
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
-    counter-increment: pages;
+    counter-increment: pages+1;
     position: relative;
     width: 100%;
     z-index: 1
@@ -2792,10 +2799,27 @@ div.aboutColumns-image img {
 
 @media (min-width:768px) {
     .pageList-headline {
+        /* border-bottom-width: 0px  */
+        border-bottom-width: 1px 
+    }
+}
+
+.pageList-headline2 {
+    border-bottom: 1px solid var(--color-white);
+    color: var(--color-type-white);
+    margin-bottom: 0;
+    padding-bottom: calc(var(--grid-gutters)/ 2);
+    position: relative
+}
+
+@media (min-width:768px) {
+    .pageList-headline2 {
         border-bottom-width: 0px 
         /* border-bottom-width: 1px  */
     }
 }
+
+
 
 #mainDiv {
   height: 60px;
