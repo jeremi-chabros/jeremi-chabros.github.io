@@ -2791,7 +2791,7 @@ div.aboutColumns-image img {
     text-transform: uppercase;
     bottom: calc(-1em - 10px);
     color: var(--color-type-white);
-    /* content: "Fig. " counter(pages); */
+    content: "";
     position: absolute;
     left: 0;
     text-transform: uppercase
