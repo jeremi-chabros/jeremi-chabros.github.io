@@ -1,1 +1,509 @@
-Hello, World!
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://electricgecko.de/ -->
+<html lang="de-DE">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>electricgecko</title>
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="electricgecko">
+	<meta property="og:site_name" content="electricgecko">
+	<meta property="og:url" content="https://electricgecko.de">
+	<meta property="og:description"
+		content="Text über Musik, Raum, Gestaltung und Kunst. Fotos. Persönliche Website von Malte Müller">
+	<meta property="og:image"
+		content="https://electricgecko.de/wp-content/themes/electricgecko-vii/electricgecko-og-image.png">
+	<meta name="robots" content="index, follow">
+
+	<link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="https://electricgecko.de/feed">
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://electricgecko.de/xmlrpc.php?rsd">
+	<link rel="pingback" href="https://electricgecko.de/xmlrpc.php">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+	</style>
+
+	<meta name="robots" content="max-image-preview:large">
+	<style id="global-styles-inline-css" type="text/css">
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+			--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+			--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+			--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+			--wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+			--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+			--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+			--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+	</style>
+	<style type="text/css">
+		ol.footnotes li {
+			list-style-type: decimal;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" media="all" href="./jjc.css">
+</head>
+
+<body class="home blog" sapling-installed="true">
+	<header>
+		<h1><a href="https://jeremi-chabros.github.io/">Jeremi Chabros</a></h1>
+		<p>Student Doctor. Researcher. Educator at Heart.</p>
+		<nav>
+			<ol>
+				<li><a href="https://jeremi-chabros.github.io/cv">CV</a></li>
+				<li><a href="https://jeremi-chabros.github.io/projects">Projects</a></li>
+				<li><a href="https://jeremi-chabros.github.io/repo">Repo</a></li>
+				<li><a href="https://jeremi-chabros.github.io/contact">contact</a></li>
+			</ol>
+		</nav>
+	</header>
+	<article>
+		<header>
+			<h2><a href="https://electricgecko.de/2022/abstand">Abstand von den Dingen</a></h2>
+			<div class="meta">
+				<ul>
+					<li>Filed under<br><a href="https://electricgecko.de/tag/musik" rel="tag">Musik</a></li>
+					<li>URL<br><a href="https://electricgecko.de/2022/abstand">/2022/abstand</a></li>
+					<li>Veröffentlicht<br>22.09.2022</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<p>Luxus ist Abstand von den Dingen, Raum der keinen Nutzen hat, nur die Unterscheidung überdeutlich
+				markiert, weit und leer genug, damit du dich darin selber aufhalten kannst. Die Leere ist das
+				Essentielle, ihr Gegenüber existiert nur als Gegengewicht und Markierung, der Garten definiert das Haus.
+				Das sind keine neuen Ideen. Ich denke und schreibe immer wieder über Nichts und ungefüllten Raum – nicht
+				als eine Abwesenheit oder etwas das fehlt, sondern als etwas Absichtsvolles, Leere die besteht, Leere
+				als Luxus, Abstand a priori. Jedenfalls, Musik.</p>
+
+			<p>Die Musik von Relaxer ist luxuriös auf diese Weise. Es sind Zeit und Licht und Raum, aufgehoben in weiten
+				Umlaufbahnen, gerade weit genug ausgearbeitet, um Rotation und Balance zu erhalten, floaty Meditations
+				on a Garage-type Beat. Bei aller Bestimmtheit bleibt diese Musik ergebnisoffen, sie ist unversell zur
+				Zeit: angemessen für das allgemeine Gefühl hier und jetzt, und doch ohne jede direkte Anschlussfähigkeit
+				für ein Thema oder einen Aggregatszustand<sup><a href="https://electricgecko.de/#footnote_0_10794"
+						id="identifier_0_10794" class="footnote-link footnote-identifier-link"
+						title="Auf Licking, dem neueren Release vom Anfang dieses Monats geht es konkreter geradeaus: Der Titeltrack samt Kilbourne Remix und Disinfectant sind reines Momentum. Doll allerdings klingt wie der elfte Track, der Concealer noch gefehlt hätte. Ein windendes, schillerndes Stück Musik.">1</a></sup>.
+				Relaxer operiert derart präzise dazwischen und daneben, wie es sonst nur Lee Gamble kann, oder halt <a
+					href="https://www.discogs.com/artist/2150668-Ital-3">Ital</a> bereits auf <a
+					href="http://planet.mu/">Planet Mu</a> konnte, das inzwischen abgelegte primäre Projekt von Daniel
+				Martin-McCormick.</p>
+
+			<p>In manchen Tracks auf <em>Concealer</em> herrscht eine rastlose Spannung, ein Oszillieren auf der Stelle,
+				das die Schwingungen der Atome aufrecht erhält. Organismus und Technologie sind gleich schwer und gleich
+				bedeutsam in diesen Räumen. Erst der letzte Track, der titelgebende <i>Concealer</i>, macht spürbar, wie
+				viele Ecken und Klingen sich in den Weiten dieser Musik verborgen haben müssen. Er verweist zurück auf
+				den Luftdruck und das Metall in <i>Traps and Lures</i>, das Aufrastern der Klangplatten in <i>Excision
+					in Androgyne</i>; <i>Mello</i> war offenbar das Echo eines Ravehits von 1998? Und natürlich war da
+				der Beginn, die zunehmend androide Stimme von Kahee Jeong, eerie und verführt: <i>Let The Walls
+					Drip</i>. Hier war nichts leer. Du warst hier und du hast dich aufgehalten.</p>
+
+			<ul>
+				<li>Relaxer – <a href="https://relaxerelaxer.bandcamp.com/album/concealer">Concealer</a>, 12×LP, Planet
+					Mu, 2021</li>
+				<li>Relaxer – <a href="https://relaxerelaxer.bandcamp.com/album/licking">Licking</a>, EP, Lovers Rock
+					Recordings, 2022</li>
+			</ul>
+			<ol class="footnotes">
+				<li id="footnote_0_10794" class="footnote">Auf <i>Licking</i>, dem neueren Release vom Anfang dieses
+					Monats geht es konkreter geradeaus: Der Titeltrack samt Kilbourne Remix und <i>Disinfectant</i> sind
+					reines Momentum. <i>Doll</i> allerdings klingt wie der elfte Track, der <i>Concealer</i> noch
+					gefehlt hätte. Ein windendes, schillerndes Stück Musik.&nbsp;<a
+						href="https://electricgecko.de/#identifier_0_10794"
+						class="footnote-link footnote-back-link">↩︎</a></li>
+			</ol>
+		</main>
+	</article>
+
+	<article>
+		<main>
+			<figure class="portrait">
+				<img width="1200" height="1600" src="./electricgecko_files/commerce.jpeg"
+					class="attachment-full size-full wp-post-image" alt="A marker tag on a backlight surface"
+					srcset="https://electricgecko.de/i/journal/2022/08/commerce.jpeg 1200w, https://electricgecko.de/i/journal/2022/08/commerce-225x300.jpeg 225w, https://electricgecko.de/i/journal/2022/08/commerce-768x1024.jpeg 768w, https://electricgecko.de/i/journal/2022/08/commerce-1152x1536.jpeg 1152w"
+					sizes="(max-width: 1200px) 100vw, 1200px">
+			</figure>
+
+		</main>
+		<footer>
+			<span><a href="https://electricgecko.de/2022/commerce">Commerce</a></span>, <span>Filed under <a
+					href="https://electricgecko.de/tag/fotografie" rel="tag">Fotografie</a></span>,
+			<span>24.08.2022</span>
+		</footer>
+	</article>
+	<article>
+		<header>
+			<h2><a href="https://electricgecko.de/2022/gegenwart">Gegenwart</a></h2>
+			<div class="meta">
+				<ul>
+					<li>Filed under<br><a href="https://electricgecko.de/tag/musik" rel="tag">Musik</a></li>
+					<li>URL<br><a href="https://electricgecko.de/2022/gegenwart">/2022/gegenwart</a></li>
+					<li>Veröffentlicht<br>20.08.2022</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<p>Ein silberner Zug zieht seine Bahn durch eine Landschaft in der Abendsonne, schnell und gemessen, ein
+				leichter Geruch von Ozon geht vom ihm aus. Lok und Waggons sind aerodynamisch wie ein Nozomi-Triebwagen,
+				aseptisch und warm zugleich, wie ein fabrikneues Abteil der New Yorker U-Bahn, ein industrielles Objekt,
+				das es nicht gibt. Dieser Zug durchquert das Grenzland meines Sommers, der kein Sommer ist, sondern das
+				erste fühlbare Stadium des Welt-Untergangs in Zeitlupe. Es ist <i>Borderland</i>, das gemeinsame Projekt
+				eines deutschen Adligen und einem Funkadelic-Kid aus Detroit<sup><a
+						href="https://electricgecko.de/#footnote_0_10751" id="identifier_0_10751"
+						class="footnote-link footnote-identifier-link"
+						title="Natürlich: Moritz von Oswald und Juan Atkins">1</a></sup>, zwei Releases aus den Jahren
+				2013 und 2016. Damit fallen diese Platten in den Zeitraum, in dem ich die mit Samt ausgekleideten
+				Releases auf Dial und Delsin hinter mir gelassen hatte, es ging rauer zu in den zehner Jahren. Ich bin
+				zurück.</p>
+
+			<p><i>Transport</i> und <i>Borderland</i> sind Lektionen in Präsenz, es ist eine Musik der vollständigen
+				Anwesenheit in der Gegenwart. Oder vielleicht eine Musik der Nostalgie für die Gegenwart, die es <a
+					href="https://en.wikipedia.org/wiki/Mark_Fisher#Hauntology">nicht mehr gibt</a>. Die Tracks sind
+				ganz konzentriert auf den Prozess ihrer eigenen Entwicklung, methodisch und in sich wiederholenden
+				einfachen Schritten. In Ruhe, mit Nachdruck. Natürlich geht es auch um Oberflächen, Dubtechno ist
+				Sounddesign, die kontrollierte Präzision der 1980er Jahre hallt durch Sub und Main. Es ist
+				Architektenfunk, eckiger, verhaltener Groove aus Düsseldorf, der in den Händen und den gekaperten
+				Maschinen von Musikerinnen der urbanen afrikanischen Diaspora zu etwas spirituellem wurde – ohne seine
+				grafischen Klarheit zu verlieren, <a href="https://electricgecko.de/2021/raumzeitwelle">Magie der
+					Echos</a>.</p>
+
+			<p><i>Transport</i> ist die bessere der beiden Platten, und sie begleitet mich seit dem Frühjahr durch ein
+				Jahr des Rückzugs in die Gegenwart. <i>Lightyear</i> und <i>Riod</i>, Tracks die niemals Hintergrund
+				sind und dennoch Raum lassen, der Vergangenheit und Zukunft verbindet. Das ist monumentale Musik, die
+				nichts betäubt. Sie ist leicht zu unterschätzen in ihrer Smoothness, ihre Komplexität entfaltet sich
+				erst in der Betrachtung aus verschiedenen Perspektiven und in verschiedenen Kontexten – <i>Odyssey</i>
+				gleicht einem Miegakure-Arrangement, Tag und Nacht, Tau und Wüste, ein gleitender Zug des Hier und
+				Jetzt. Ich habe meine Faszination für diese Form nicht verloren, und sie ist präsenter als sie es lange
+				Zeit war – am Ende sind es immer die gleichen, wenigen Menschen, die etwas Übergeordnetes verstanden
+				haben und es <a href="http://electricgecko.de/2017/monumentaler-realbuddhismus">ausdrücken können</a>,
+				das ist rar und alles, zumal im hier (Berlin) und jetzt (2020–).</p>
+
+			<p></p>
+			<blockquote>Es sei ihm bei den Millionen von Schritten aufgefallen, dass es eine Gegenwart nicht gab, nicht
+				geben könne. Jeder seiner Schritte war bereits Vergangenheit, und jeder neue die Zukunft. Der Fuß
+				angehoben bereits Gewesenes, den Fuß in den Schlamm vor sich niedersetzen noch in der Zukunft. Wo war
+				die Gegenwart?</blockquote> Werner Herzog berichtet über Hiroo Onoda, aus <i>Das Dämmern der Welt</i>,
+			Seite 125.<p></p>
+
+			<ul>
+				<li>Borderland – <a href="https://tresorberlin.bandcamp.com/album/transport">Transport</a>, LP, Tresor,
+					2016</li>
+				<li>Moritz von Oswald &amp; Juan Atkins – <a
+						href="https://tresorberlin.bandcamp.com/album/borderland">Borderland</a>, LP, Tresor, 2013</li>
+			</ul>
+			<ol class="footnotes">
+				<li id="footnote_0_10751" class="footnote">Natürlich: Moritz von Oswald und Juan Atkins&nbsp;<a
+						href="https://electricgecko.de/#identifier_0_10751"
+						class="footnote-link footnote-back-link">↩︎</a></li>
+			</ol>
+		</main>
+	</article>
+	<article>
+		<header>
+			<h2><a href="https://electricgecko.de/2022/hair">On Hair</a></h2>
+			<div class="meta">
+				<ul>
+					<li>Filed under<br><a href="https://electricgecko.de/tag/leben" rel="tag">Leben</a>, <a
+							href="https://electricgecko.de/tag/selbstreferenz" rel="tag">Selbstreferenz</a></li>
+					<li>URL<br><a href="https://electricgecko.de/2022/hair">/2022/hair</a></li>
+					<li>Veröffentlicht<br>26.07.2022</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<p>February: There is a new unruliness that takes time to emerge. A permanent potential of subtle chaos and
+				gentle disruption (comparable to the mild high of caffeine) in my days, a set of fresh annoyances that
+				remind me of the ways of the universe. I invite it, and I cherish it, and I invite the change in
+				external and internal expression, they go well with open shirt sleeves and polished boots.</p>
+
+			<p>June: My hair is now the longest it has been in years, and astonishingly, i am able to stand its blatant
+				imperfection. There is no purpose in its style and no swagger in its unkempt appearance. Having hair and
+				doing nothing about it is to relinquish control, to be defenseless, it is to not have an answer. The
+				hair is a non-statement, it just is (while paradoxically being strong-willed and chaotic by nature, with
+				a wiry strength in all the wrong directions, at odds with all ideals and imaginations). My hair has
+				taken me this far, it allowed me some casualness, and the freedom to tear down rules without letting
+				arbitration take their place. Rather, it’s like replacing a rigid structure with polyform mesh,
+				something equally strong, but less brittle, less restrictive and less reliant on forces and powers. One
+				day, things might emerge, where I say the words and am understood instead of bending them and the
+				universe to my will, like my hair.</p>
+		</main>
+	</article>
+	<article>
+		<header>
+			<h2><a href="https://electricgecko.de/2022/dust-gods">Dust Gods</a></h2>
+			<div class="meta">
+				<ul>
+					<li>Filed under<br><a href="https://electricgecko.de/tag/leben" rel="tag">Leben</a>, <a
+							href="https://electricgecko.de/tag/musik" rel="tag">Musik</a></li>
+					<li>URL<br><a href="https://electricgecko.de/2022/dust-gods">/2022/dust-gods</a></li>
+					<li>Veröffentlicht<br>02.07.2022</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<p><i>Journey Index</i> (released today by Heathered Pearls) is completed by a rhythmic cicadae hum, a
+				thousand voices unisono, filtered through flimsy noise cancelling algorithms rendered hapless by chitine
+				percussion, at La Serre dei Giardini in Bologna. The track’s slow drone emulsifies with this summer
+				day’s relentless heat, subduing this universe to a heavy slow motion crawl: All is bound and connected
+				to its irresistible momentum. The sound design might lean towards Detroit, but this is a decidedly rural
+				affair, under the sky and close to nature. Like Detroit once, it points to the future. A majestic,
+				monastic desert planet idleness has befallen this place of advanced permaculture agritech, casting
+				humanity as a mute witness, as silent dust ghosts, at the edge of an end and the beginning of another
+				era. I can feel it, this soft track, this soft moment.</p>
+
+			<ul>
+				<li>Heathered Pearls – <a href="https://heatheredpearls.bandcamp.com/track/journey-index">Journey
+						Index</a>, Digital, Self-released, 2022</li>
+			</ul>
+		</main>
+	</article>
+	<div class="paging">
+		<a href="https://electricgecko.de/page/2">Ältere Texte</a>
+	</div>
+
+	<footer>
+		<p>electricgecko.de ist eine Publikation von <a href="http://maltemueller.com/">Malte Müller</a>.</p>
+		<a href="https://electricgecko.de/datenschutz">Datenschutz</a>
+	</footer>
+</body>
+
+</html>

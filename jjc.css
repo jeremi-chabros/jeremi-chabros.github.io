@@ -1,0 +1,546 @@
+/* electricgecko.de (7.4 LA BREA/2019-2020) */
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+input,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    font-size: 1em
+}
+
+::selection,
+::-moz-selection,
+::-webkit-selection {
+    background: #fff;
+    color: #666
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 24pt;
+    line-height: 1.1em;
+    color: #000;
+    margin: 10px
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300
+}
+
+h2,
+h3 {
+    margin: 2em 0
+}
+
+p,
+blockquote {
+    margin-bottom: 1em;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
+}
+
+header p,
+footer p {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none
+}
+
+sup {
+    font-size: .5em;
+    line-height: 1em
+}
+
+h2 {
+    font-size: 55pt;
+    line-height: 1em;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 90%
+}
+
+@media only screen and (max-width: 840px) {
+    h2 {
+        font-size: 30pt;
+        line-height: 1em
+    }
+}
+
+h3 a,
+h4 a,
+p a,
+article main ul li a,
+article main ol li a,
+.footnotes li a {
+    text-decoration: underline
+}
+
+h3 a:hover,
+h4 a:hover,
+p a:hover,
+article main ul li a:hover,
+article main ol li a:hover,
+.footnotes li a:hover {
+    text-decoration: none
+}
+
+h3 a:after:hover,
+h4 a:after:hover,
+p a:after:hover,
+article main ul li a:after:hover,
+article main ol li a:after:hover,
+.footnotes li a:after:hover {
+    text-decoration: none
+}
+
+sup a,
+p sup a,
+article main ul li sup a {
+    text-decoration: none
+}
+
+sup a:hover,
+p sup a:hover,
+article main ul li sup a:hover {
+    text-decoration: underline
+}
+
+q,
+blockquote {
+    font-style: italic;
+    quotes: "â€œ" "â€" "â€˜" "â€™"
+}
+
+q:before,
+blockquote:before {
+    content: open-quote
+}
+
+q:after,
+blockquote:after {
+    content: close-quote
+}
+
+q i,
+blockquote i {
+    font-style: normal
+}
+
+strong,
+b {
+    font-weight: 300
+}
+
+ul:not(.contentlist),
+ol {
+    list-style: none;
+    list-style-position: inside
+}
+
+ul:not(.contentlist) li,
+ol li {
+    margin-left: 1.5em;
+    text-indent: -1.5em
+}
+
+.featured {
+    text-align: center;
+    margin: 200px 0
+}
+
+.featured ul {
+    display: flex;
+    justify-content: space-around
+}
+
+figure img {
+    width: 100%;
+    height: auto
+}
+
+figure.portrait img {
+    width: auto;
+    height: 110vh
+}
+
+figure figcaption {
+    font-size: 9pt;
+    font-weight: 600;
+    line-height: 1.2em
+}
+
+p img {
+    max-width: 100%
+}
+
+body>header {
+    font-size: 55pt;
+    line-height: 1em;
+    margin-bottom: 3em
+}
+
+@media only screen and (max-width: 840px) {
+    body>header {
+        font-size: 30pt;
+        line-height: 1em
+    }
+}
+
+body>header p {
+    margin: 0
+}
+
+body.single>header,
+body.page>header,
+body.archive>header {
+    height: 40vh;
+    margin-bottom: 0;
+    display: flex
+}
+
+body.single>header h1,
+body.single>header nav,
+body.page>header h1,
+body.page>header nav,
+body.archive>header h1,
+body.archive>header nav {
+    font-size: 9pt;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-right: 1.5em
+}
+
+nav ol {
+    font-style: italic;
+    margin: 0
+}
+
+nav ol li {
+    display: inline;
+    margin: 0;
+    text-indent: 0
+}
+
+.paging {
+    text-align: center;
+    margin-bottom: 6em;
+    display: flex;
+    justify-content: space-around
+}
+
+.paging a {
+    max-width: 30%
+}
+
+body>footer {
+    font-size: 55pt;
+    line-height: 1em
+}
+
+@media only screen and (max-width: 840px) {
+    body>footer {
+        font-size: 30pt;
+        line-height: 1em
+    }
+}
+
+body>footer p+a:last-child {
+    font-size: 9pt;
+    font-weight: 600;
+    line-height: 1.2em
+}
+
+body>article,
+body main>article {
+    margin-bottom: 200px
+}
+
+body>article header .meta,
+body main>article header .meta {
+    margin-bottom: 2em
+}
+
+body>article p,
+body>article ul,
+body>article ol,
+body>article blockquote,
+body main>article p,
+body main>article ul,
+body main>article ol,
+body main>article blockquote {
+    max-width: 90vw
+}
+
+body>article main h3 {
+    text-align: center;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body>article main ul {
+    margin-bottom: 1em
+}
+
+body>article main ul.yearlist,
+body>article main ul.release {
+    max-width: 80%
+}
+
+body>article main ol {
+    list-style: decimal-leading-zero;
+    list-style-position: inside
+}
+
+body>article main ol li {
+    margin-bottom: 1em
+}
+
+body>article main ol.footnotes {
+    font-size: 9pt;
+    font-weight: 600;
+    line-height: 1.2em;
+    list-style: none;
+    margin: 0;
+    width: 70%;
+    min-width: 200px
+}
+
+body>article main ol.footnotes li {
+    text-indent: 0em
+}
+
+body>article main ol.footnotes li a.footnote-back-link {
+    text-decoration: none
+}
+
+body>article main ol.footnotes li a.footnote-back-link:hover {
+    text-decoration: underline
+}
+
+body>article.statement main p {
+    font-size: 1.5em;
+    line-height: 1.1em
+}
+
+.archive,
+.contact {
+    margin-bottom: 200px
+}
+
+body.page-template-page-kontakt>header {
+    height: 20vh
+}
+
+.contact header {
+    margin-bottom: 50px
+}
+
+.contact header figure {
+    margin: 0 auto;
+    width: 250px
+}
+
+img.icon {
+    width: 2em;
+    height: 2em
+}
+
+body.page-template-page-repo p+h2,
+body.page-template-page-repo ul+h2 {
+    margin-top: 200px
+}
+
+body.page-template-page-repo p img {
+    width: auto;
+    height: 80vh
+}
+
+@media only screen and (max-width: 840px) {
+    body {
+        font-size: 18pt;
+        line-height: 1.1em;
+        margin: 10px
+    }
+
+    h2 {
+        max-width: none
+    }
+
+    body>header {
+        margin-bottom: 200px
+    }
+
+    body.single>header,
+    body.page>header {
+        height: 20vh
+    }
+
+    body.single>header nav ol li,
+    body.page>header nav ol li {
+        margin-right: .3em
+    }
+
+    body.single>header nav ol li:last-child,
+    body.page>header nav ol li:last-child {
+        margin-right: 0
+    }
+
+    figure.portrait img {
+        width: 100%;
+        height: auto
+    }
+
+    body>article p,
+    body>article ul,
+    body>article ol,
+    body>article blockquote,
+    body main>article p,
+    body main>article ul,
+    body main>article ol,
+    body main>article blockquote {
+        max-width: none
+    }
+
+    body>article main h3 {
+        max-width: none
+    }
+
+    body>article main ul.yearlist,
+    body>article main ul.release {
+        max-width: none
+    }
+
+    body>article ol:not(.footnotes) li {
+        margin-left: 0;
+        text-indent: 0
+    }
+
+    body>article.statement main p {
+        font-size: 2rem
+    }
+
+    .paging {
+        flex-direction: column
+    }
+
+    .paging a {
+        max-width: none;
+        margin-bottom: .5em
+    }
+
+    .featured {
+        margin: calc(200px*.5) 0;
+        max-width: none
+    }
+
+    .featured ul,
+    .paging ul {
+        flex-direction: column;
+        justify-content: space-around
+    }
+
+    .featured ul li,
+    .paging ul li {
+        margin-bottom: .5em
+    }
+
+    .featured ul li:last-child,
+    .paging ul li:last-child {
+        margin-bottom: 0
+    }
+
+    .contact main article {
+        margin-bottom: calc(200px*.5)
+    }
+
+    body.page-template-page-repo p img {
+        width: 100%;
+        height: auto
+    }
+}
