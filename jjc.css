@@ -120,7 +120,8 @@ screen and (min-resolution:2dppx) {
 
 :root {
     /* background-color: var(--color-bg-light); */
-    background-color: var(--color-lavender);
+    /* background-color: var(--color-lavender); */
+    background-color: var(--color-lighter-gray);
     color: var(--color-type-base)
 }
 
