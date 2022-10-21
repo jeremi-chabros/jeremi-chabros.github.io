@@ -2784,7 +2784,7 @@ div.aboutColumns-image img {
 .pageList-headline::after {
     font-family: var(--font-tertiary);
     font-weight: var(--font-tertiary-weight-medium);
-    font-size: 0px;
+    font-size: 14px;
     line-height: 20px;
     margin-bottom: 0;
     margin-top: 0;
