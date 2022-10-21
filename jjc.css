@@ -13,7 +13,6 @@
     --color-gold: #D5B795;
     --color-blue: #A7CEEF;
     --color-green: #ACB5AC;
-    /* --color-teal: #233D4B; */
     --color-teal: #001717;
     --color-lavender: #B8BBD3;
     --color-red: #C9A3A4;
@@ -454,6 +453,17 @@ h2 {
     margin-top: 0
 }
 
+h5 {
+    font-family: var(--font-secondary);
+    font-weight: var(--font-secondary-weight-light);
+    color: var(--color-type-white);
+    font-size: 60px;
+    font-weight: var(--font-secondary-weight-light);
+    line-height: 36px;
+    margin-bottom: .715em;
+    margin-top: 0
+}
+
 @media (min-width:480px) {
     h2 {
         font-size: 36px;
@@ -868,7 +878,7 @@ p.-large {
     .navigation .navigation-link {
         font-family: var(--font-tertiary);
         font-weight: var(--font-tertiary-weight-medium);
-        font-size: 14px;
+        font-size: 16px;
         line-height: 20px;
         margin-bottom: 0;
         margin-top: 0;
@@ -2441,7 +2451,8 @@ div.aboutColumns-image img {
 
 .hero-headline {
     font-family: var(--font-primary);
-    font-weight: var(--font-primary-weight-medium);
+    font-weight: var(--font-primary-weight-light);
+    font-size: 30px;
     letter-spacing: -.03em;
     margin-bottom: 0
 }
@@ -2781,8 +2792,24 @@ div.aboutColumns-image img {
 
 @media (min-width:768px) {
     .pageList-headline {
-        border-bottom-width: 2px
+        border-bottom-width: 0px 
+        /* border-bottom-width: 1px  */
     }
+}
+
+#mainDiv {
+  height: 60px;
+  width: 50%;
+  position: relative;
+  border-bottom: 1px solid var(--color-white);
+  background: transparent;
+}
+
+#borderLeft {
+  border-left: 1px solid transparent;
+  position: absolute;
+  top: -50%;
+  bottom: 0;
 }
 
 .pageList-headline::after {
