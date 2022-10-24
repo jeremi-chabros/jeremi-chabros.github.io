@@ -38,6 +38,7 @@
     --font-tertiary: "Barlow", Helvetica, Arial, sans-serif;
     --font-quaternary: "Sohne Mono Buch", Helvetica, Arial, sans-serif;
     --font-primary-weight-regular: 400;
+    --font-primary-weight-light: 300;
     --font-primary-weight-medium: 500;
     --font-secondary-weight-light: 300;
     --font-secondary-weight-regular: 400;
@@ -2340,7 +2341,7 @@ div.aboutColumns-image img {
 }
 
 .hero.-home .hero-cta {
-    border-top: 2px solid var(--color-white);
+    border-top: 1px solid var(--color-white);
     bottom: var(--grid-gutters);
     padding-right: 3rem;
     padding-top: 1.25em;
@@ -2761,7 +2762,7 @@ div.aboutColumns-image img {
 }
 
 .pageList-headline2 {
-    border-bottom: 1px solid var(--color-white);
+    border-bottom: 0px solid var(--color-white);
     color: var(--color-type-white);
     margin-bottom: 0;
     padding-bottom: calc(var(--grid-gutters)/ 2);
@@ -2778,7 +2779,7 @@ div.aboutColumns-image img {
 
 
 #mainDiv {
-  height: 60px;
+  height: 2ex;
   width: 50%;
   position: relative;
   border-bottom: 1px solid var(--color-white);
